@@ -1,0 +1,90 @@
+body {
+	background: #eee !important;	
+}
+
+@font-face {
+    font-family: ProximaNova;
+    //src: url(Proxima Nova.otf);
+}
+.login-txt-center{
+	font-family: ProximaNova;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+}
+.login-form{
+	margin:4% auto 0;
+	max-width:380px;
+}
+
+.login-form h1{
+	font-size: 30pt;
+	font-weight: 700;
+    letter-spacing: -1px;
+    font-style: oblique;
+}
+
+.form-signin{
+	padding: 45px 35px 15px;
+  	background-color: #fff;
+  	border: 1px solid rgba(0,0,0,0.1);  
+  	border-bottom: 0px; 
+  	border-top: 0px;  
+}
+
+.form-header{
+	text-align: center;
+	padding: 15px 40px;
+	border-radius: 10px 10px 0 0;
+}
+.form-header i{font-size:60px;}
+
+.form-signin-heading{
+	margin-bottom: 30px;
+}
+.bt-login{
+	background-color: #ff8627;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 300ms linear 0s;
+}
+.form-signin .form-control, .form-register .form-control{
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus, .form-register .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 30px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+i{margin-right: 4%;}
+a{text-decoration: none;color:#333;}
+h1{font-family: Pacifico;}
+
+
+.twitter, .twitter:hover {
+    background-color: #00aced;
+    border: 2px solid #00aced;
+    color: #fff;
+    padding: 10px 23%;
+}
+
+.modal-icons {
+    margin-left: -5px;
+    margin-right: 20px;
+}
