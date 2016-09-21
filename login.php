@@ -5,6 +5,10 @@ require_once('./api/twitteroauth/twitteroauth.php');
 require_once('./api/config.php');
 
 // define the consumer key and secet and callback
+//define('CONSUMER_KEY', 'cvh6DdMa7XUavOm3fbrEmXq9S');
+//define('CONSUMER_SECRET', 'HTMuEo8WSi5RW9fFnaJ4fhqEi7vTUi9SFMqhG44zCzgWJHSDO3');
+//define('ACCESS_TOKEN','2221810244-aAlgwmRIskDICXz19XRgvwdz9xvMZ9sH3zmsGZl');
+//define('ACCESS_SECRET',' ZcAQ1WHTjgFTEkqiUcmBA7XA9oSlrp624lG6Hohv08vsV');
 define('OAUTH_CALLBACK', 'http://twittertimeline.azurewebsites.net/index.php');
 // start the session
 session_start();

@@ -15,7 +15,7 @@
             'username': null,
             'list': null,
             'hashtag': null,
-            'count': 1,
+            'count': 10,
             'hideReplies': false,
             'dateFormat': '%b/%d/%Y',
             'template': '{{date}} - {{tweet}}',
